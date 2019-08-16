@@ -127,15 +127,41 @@ form p span{
 
     .info-container{
         width: 100vw;
-        margin-top: 20%;
-        margin-bottom: 10%;
+        margin: 20% 0 10% 0;
         padding: 0;
         text-align: center;
+    }
+
+    .info-container h1{
+        font-size: 2em;
+    }
+
+    .info-container p{
+        margin: 0 7%;
+        font-size: 1em;
     }
 
     .form-container{
         width: 100vw;
         padding: 0;
         text-align: center;
+    }
+
+    .promo-container{
+        margin: 0 10% 10%;
+        padding: 5% 15%;
+    }
+
+    .form-container form{
+        margin: 0 10% 20%;
+        padding: 5%;
+    }
+
+    form input{
+        padding: 5%;
+    }
+
+    form button{
+        padding: 6%;
     }
 }
